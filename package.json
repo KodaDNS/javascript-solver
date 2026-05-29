@@ -1,0 +1,35 @@
+{
+  "name": "koda-javascript-decoder",
+  "version": "1.0.0",
+  "description": "Advanced JavaScript Decoder & Deobfuscator",
+  "keywords": [
+    "decoder",
+    "javascript",
+    "deobfuscation",
+    "b64",
+    "solver",
+    "obfuscated-js"
+  ],
+  "homepage": "https://github.com/KodaDNS/javascript-solver#readme",
+  "bugs": {
+    "url": "https://github.com/KodaDNS/javascript-solver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KodaDNS/javascript-solver.git"
+  },
+  "license": "MIT",
+  "author": "KodaDNS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "acorn": "^8.16.0",
+    "acorn-walk": "^8.3.5",
+    "escodegen": "^2.1.0"
+  }
+}
